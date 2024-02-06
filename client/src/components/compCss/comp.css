@@ -1,0 +1,12 @@
+.leaderboardTable{
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboardTable th, td {
+    text-align: left;
+    padding: 9px;
+    border-bottom: 1px dotted #ddd;
+}

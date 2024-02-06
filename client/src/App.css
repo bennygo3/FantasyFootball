@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.homePage {
+  background-image: url("/src/assets/chalkboard.png");
+  background-size:contain;
+  background-repeat: repeat;
+  
+  background-color: black;
+  min-height: 100vh;
+}

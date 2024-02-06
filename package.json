@@ -1,0 +1,32 @@
+{
+  "name": "foreveruncleanff",
+  "version": "0.1.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/server.js",
+    "client": "cd client && npm start"
+  },
+  "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.8.1"
+  }
+}

@@ -1,0 +1,78 @@
+.signAndLog{
+    background-image: url('../../assets/footballLeather.jpeg');
+    min-height: 100vh;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.signAndLog p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.signAndLog p button{
+    background: none;
+    color: #ffab00;
+    cursor: pointer; 
+    border: none;
+    padding: 3px;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+
+.signAndLog button:hover,
+.signAndLog button:focus {
+    text-decoration: none; 
+    color: #0056b3; 
+}
+
+.form-group{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input.form-control{
+    font-size: 16px;
+    color: black; 
+    border: 2px solid rgb(22, 68, 120); 
+    border-radius: 4px; 
+    padding: 10px; /* Padding inside the inputs */
+    margin-bottom: 10px; 
+}
+
+.form-group input.form-control::placeholder{
+    color: #ccc; /* Light grey color for placeholder */
+}
+
+.form-group button{
+    font-size: 16px; 
+    color: white; 
+    background-color: #ffab00; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    margin-top: 10px; 
+}
+
+.form-group button:hover{
+    background-color: #e69500; /* Darker shade for hover effect */
+}
+
+.textBackground{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-family: 'graduate';
+    font-size: 40px;
+}
