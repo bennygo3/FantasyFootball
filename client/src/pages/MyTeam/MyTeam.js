@@ -8,7 +8,7 @@ const MyTeam = () => {
     useEffect(() => {
         const getPlayers = async () => {
             try {
-                const offensivePos = ['QB', 'RB', 'WR', 'TE', 'PK'];
+                const offensivePos = ["QB", "RB", "WR", "TE", "PK"];
                 const playersData = await fetchAllPlayers(offensivePos);
                 console.log("Fetched players data:", playersData);
                 setPlayers(playersData);
